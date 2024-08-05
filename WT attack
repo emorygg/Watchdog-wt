@@ -1,1 +1,71 @@
-{"type":"AlertGroup","alerts":[{"type":"SpawnedAlert","spawnedDespawned":"SPAWNED","spawnedType":"GAME_OBJECT","spawnedName":"Null","regexEnabled":false,"distance":1,"distanceComparator":"EQUALS","enabled":true,"name":"Brazier attack","debounceTime":0,"randomNotifications":false,"notifications":[{"type":"TextToSpeech","gain":5,"rate":1,"voice":"GEORGE","source":"LEGACY","message":"Brazier attack","fireWhenFocused":true,"fireWhenAFK":false,"fireWhenAFKForSeconds":5,"delayMilliseconds":0},{"type":"TrayNotification","message":"Brazier attack!","fireWhenFocused":true,"fireWhenAFK":false,"fireWhenAFKForSeconds":5,"delayMilliseconds":0}]},{"type":"SpawnedAlert","spawnedDespawned":"SPAWNED","spawnedType":"GAME_OBJECT","spawnedName":"Null","regexEnabled":false,"distance":2,"distanceComparator":"EQUALS","enabled":true,"name":"Fire attack","debounceTime":0,"randomNotifications":false,"notifications":[{"type":"TextToSpeech","gain":5,"rate":1,"voice":"GEORGE","source":"LEGACY","message":"Fire attack","fireWhenFocused":true,"fireWhenAFK":false,"fireWhenAFKForSeconds":5,"delayMilliseconds":0}]}],"enabled":true,"name":"Wintertodt attack","debounceTime":0,"randomNotifications":false}
+{
+  "type": "AlertGroup",
+  "alerts": [
+    {
+      "type": "SpawnedAlert",
+      "spawnedDespawned": "SPAWNED",
+      "spawnedType": "GAME_OBJECT",
+      "spawnedName": "Null",
+      "regexEnabled": false,
+      "distance": 1,
+      "distanceComparator": "EQUALS",
+      "enabled": true,
+      "name": "Brazier attack",
+      "debounceTime": 0,
+      "randomNotifications": false,
+      "notifications": [
+        {
+          "type": "TextToSpeech",
+          "gain": 5,
+          "rate": 1,
+          "voice": "GEORGE",
+          "source": "LEGACY",
+          "message": "Brazier attack",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "TrayNotification",
+          "message": "Brazier attack!",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        }
+      ]
+    },
+    {
+      "type": "SpawnedAlert",
+      "spawnedDespawned": "SPAWNED",
+      "spawnedType": "GAME_OBJECT",
+      "spawnedName": "Null",
+      "regexEnabled": false,
+      "distance": 2,
+      "distanceComparator": "EQUALS",
+      "enabled": false,
+      "name": "Fire attack",
+      "debounceTime": 0,
+      "randomNotifications": false,
+      "notifications": [
+        {
+          "type": "TextToSpeech",
+          "gain": 5,
+          "rate": 1,
+          "voice": "GEORGE",
+          "source": "LEGACY",
+          "message": "Fire attack",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        }
+      ]
+    }
+  ],
+  "enabled": true,
+  "name": "Wintertodt attack",
+  "debounceTime": 0,
+  "randomNotifications": false
+}
